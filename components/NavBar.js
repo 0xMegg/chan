@@ -14,11 +14,8 @@ export default function Navbar() {
         </span>
       </Link>
       <style jsx>{`
-        a {
-          text-decoration: none;
-        }
         span {
-          color: red;
+          text-decoration: none;
         }
         .active {
           text-decoration: overline;
