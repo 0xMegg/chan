@@ -1,3 +1,4 @@
+import Seo from "@/components/Seo";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -8,6 +9,7 @@ export default function Home({ results }) {
   };
   return (
     <div className="container">
+      <Seo title="Home" />
       {results?.map((movie) => (
         <div
           onClick={() => onClick(movie.id, movie.original_title)}
